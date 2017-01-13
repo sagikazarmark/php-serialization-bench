@@ -117,6 +117,12 @@
 The interesting conclusion is that MsgPack (which advertises itself to be faster than JSON) is actually the slowest of all so far.
 
 
+## See also
+
+- https://coderwall.com/p/ccdryg/benchmarking-bson-json-and-native-serializing-in-php
+- http://stackoverflow.com/questions/804045/preferred-method-to-store-php-arrays-json-encode-vs-serialize
+
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
