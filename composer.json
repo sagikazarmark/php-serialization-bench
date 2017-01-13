@@ -1,0 +1,25 @@
+{
+    "name": "skm/php-serialization-bench",
+    "description": "Benchmarks for serialization methods in PHP",
+    "license": "MIT",
+    "homepage": "https://github.com/sagikazarmark/php-serialization-bench",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "phpbench/phpbench": "^0.13.0",
+        "rybakit/msgpack": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SKM\\Benchmarks\\Serialization\\": "benchmarks/"
+        }
+    },
+    "scripts": {
+        "bench": "vendor/bin/phpbench run"
+    }
+}
